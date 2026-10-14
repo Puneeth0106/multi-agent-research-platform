@@ -1,0 +1,75 @@
+# Original downloads and local publication records
+/local-backup/
+/.publication/
+
+# Credentials and machine-local configuration
+.env
+.env.*
+*.env
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+credentials*
+secrets.json
+*.secrets.json
+config/secrets.local.json
+
+# Python environments, bytecode, tooling and model caches
+.venv/
+.venv-*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.huggingface/
+.coverage*
+htmlcov/
+coverage.xml
+build/
+dist/
+node_modules/
+
+# Infrastructure state, plans and local variable files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.plan
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+crash.log
+crash.*.log
+# Keep .terraform.lock.hcl versioned when generated.
+
+# Runtime data and exports
+*.log
+logs/
+*.db
+*.db-*
+*.sqlite*
+*.duckdb*
+dump.rdb
+appendonly.aof*
+reports/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
